@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: gainsboro;
+    float:top;
+}
+.container{
+    width: 1010px;
+    background-color: white;
+    margin: 0 auto;
+    height: 1000px;
+}
+.logo{
+    /* border-style: dotted; */
+    width: 250px;
+    height: 150px;
+    float: left;
+}
+.logo img{
+    width: 150px;
+    height: 130px;
+}
+.titulo{
+    width: 1010px;
+    height: 100px;
+    display: inline-block;
+    text-align: center;
+    /* border-style: dotted; */
+}
+.navbar{
+    /* border-style: dotted;  */
+    width: 760px ;
+    height: 150px;
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+.navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: right;
+}
+.navbar li{
+    display: inline-block;
+    padding: 0;
+    margin-inline-end: 20px;
+}
+.tabla .nombre{
+    width: 450px;
+}
+.tabla .tiempo{
+    width: 250px;
+}
+.tabla .distancia{
+    width: 250px;
+}
+.tabla th, td{
+    border: 1px solid black;
+
+}
+.tabla table{
+    padding-left: 25px;
+}
+.texto{
+    width: 1010px;
+    height: 150px;
+    display: inline-block;
+    text-align: center;
+}
